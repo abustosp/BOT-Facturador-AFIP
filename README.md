@@ -1,6 +1,6 @@
 # BOT-Facturador-AFIP
 
-#El licenciamiento es con GPL (es decir que no se puede distribuir comercialmente, solamente GRATIS). y si se modifica el código, este también debe ser distribuido Gratuitamente.
+#El licenciamiento es con GPL (es decir que no se puede distribuir comercialmente, solamente GRATIS). y si se utiliza este el código, su derivado también debe ser distribuido Gratuitamente.
 
 Archivos base para la Facturación en el Servicio de Comprobantes en Línea de AFIP en UiPath
 
