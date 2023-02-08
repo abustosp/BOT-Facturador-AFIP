@@ -5,7 +5,9 @@ Archivos base para la Facturación Masiva en el Servicio de Comprobantes en Lín
 Breve descripción del BOT
 
     ֎ Crearse una cuenta en UiPath (https://www.uipath.com/)
+    
     ֎ Descargar el Uipath Studio (https://www.uipath.com/studio) en la versión Community (es gratuita)
+    
     ֎ Una vez instalado el Studio, se debe abrir el project.json o archivo .xaml y ejecutarlo. (se puede ejecutar desde el Studio o desde la consola de comandos)
 
 Para ejecutar desde la consola de comandos, se debe ejecutar el siguiente comando:
