@@ -19,8 +19,8 @@ y si lo compartís (hacelo gratis, mencioname también para que mas gente se met
 
 Cualquier cosa pueden contactarme en:
 
-    ֎ https://www.linkedin.com/in/agust%C3%ADn-bustos-piasentini-468446122/
+    https://www.linkedin.com/in/agust%C3%ADn-bustos-piasentini-468446122/
 
-    ֎ https://www.youtube.com/user/agustinbustosp
+    https://www.youtube.com/user/agustinbustosp
 
-    ֎ whatsapp al https://wa.me/+5493764224695
+    whatsapp al https://wa.me/+5493764224695
