@@ -1,8 +1,9 @@
 Archivos base para la Facturación Masiva en el Servicio de Comprobantes en Línea de AFIP mediante un BOT de UiPath
-
+#
 ## El licenciamiento es con GPL (es decir que no se puede distribuir comercialmente, solamente GRATIS). y si se utiliza este el código, su derivado también debe ser distribuido abierta y gratuitamente. 
-
-Breve descripción del BOT
+#
+##
+ Breve descripción del BOT
 
     ֎ Crearse una cuenta en UiPath (https://www.uipath.com/)
     
@@ -26,3 +27,11 @@ Cualquier cosa pueden contactarme en:
     https://www.youtube.com/user/agustinbustosp
 
     whatsapp al https://wa.me/+5493764224695
+
+### Particularidades del BOT
+
+    ֎ Para poner la fecha tiene que ser en formato texto en el Excel, por ejemplo: '01/01/2023 (Es decir debe tener ' al principio)
+
+    ֎ El bot Corre solamente en Firefox por el momento y en Windows (a partir de windows 10 en adelante)
+
+    ֎ A veces es necesario tener la Extensión de Firefox instalada en modo de Current User (no en modo de All Users)
