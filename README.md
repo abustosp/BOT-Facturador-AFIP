@@ -30,8 +30,6 @@ Cualquier cosa pueden contactarme en:
 
 ### Particularidades del BOT
 
-    ֎ Para poner la fecha tiene que ser en formato texto en el Excel, por ejemplo: '01/01/2023 (Es decir debe tener ' al principio)
-
     ֎ El bot Corre solamente en Firefox por el momento y en Windows (a partir de windows 10 en adelante)
 
     ֎ A veces es necesario tener la Extensión de Firefox instalada en modo de Current User (no en modo de All Users)
