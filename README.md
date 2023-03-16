@@ -3,7 +3,7 @@ Archivos base para la Facturación Masiva en el Servicio de Comprobantes en Lín
 ## El licenciamiento es con GPL (es decir que no se puede distribuir comercialmente, solamente GRATIS). y si se utiliza este el código, su derivado también debe ser distribuido abierta y gratuitamente. 
 #
 ##
- Breve descripción del BOT
+ Breve descripción para la ejecución del BOT
 
     ֎ Crearse una cuenta en UiPath (https://www.uipath.com/)
     

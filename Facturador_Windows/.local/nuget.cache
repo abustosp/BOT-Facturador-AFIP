@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Nie+uLqFGaUZ+8CN3z3xqAd8qntJkp98wIt2G7NeHJj/Iuo5gXGgXVJBEVYNM4GBvpmKQusDcDpZ2FFyXBYqIQ==",
+  "dgSpecHash": "6h34r41HjFrvoM3wMXMSzpgX7PtLImzv6Y2cQZdE7r+L+U2pMX6gD1p0PY+e/ugzcPrZMhKDjUDAAiMCGx/oNA==",
   "success": true,
-  "projectFilePath": "F:\\Proyecto Uipath\\BOT-Facturador-AFIP\\Facturador_Windows\\.local\\",
+  "projectFilePath": "F:\\Proyecto Uipath\\BOT-Facturador-AFIP- monousuario\\Facturador_Windows\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\Agustin Bustos\\.nuget\\packages\\azure.core\\1.18.0\\azure.core.1.18.0.nupkg.sha512",
     "C:\\Users\\Agustin Bustos\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",
