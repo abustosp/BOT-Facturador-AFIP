@@ -19777,9 +19777,9 @@
     "restore": {
       "projectUniqueName": "Facturador_Windows",
       "projectName": "Facturador_Windows",
-      "projectPath": "F:\\Proyecto Uipath\\BOT-Facturador-AFIP- monousuario\\Facturador_Windows\\.local",
+      "projectPath": "F:\\Proyecto Uipath\\BOT-Facturador-AFIP-monousuario\\Facturador_Windows\\.local",
       "packagesPath": "C:\\Users\\Agustin Bustos\\.nuget\\packages\\",
-      "outputPath": "F:\\Proyecto Uipath\\BOT-Facturador-AFIP- monousuario\\Facturador_Windows\\.local",
+      "outputPath": "F:\\Proyecto Uipath\\BOT-Facturador-AFIP-monousuario\\Facturador_Windows\\.local",
       "fallbackFolders": [
         "C:\\Users\\Agustin Bustos\\AppData\\Local\\UiPath\\NugetFallbackFolder"
       ]
