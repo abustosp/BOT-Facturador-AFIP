@@ -11,7 +11,12 @@
     {
       "Path": "Facturador Simplificado 4.0.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": null,
+      "VariablesSectionElementsOrder": [
+        "BaseFacturas&Sequence_256",
+        "UbicacionaGuardar&Sequence_256",
+        "CBTE_Asociado&Sequence_254",
+        "NombreArchivo&Sequence_253"
+      ],
       "ArgumentsSectionElementsOrder": null,
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
@@ -19,7 +24,10 @@
     {
       "Path": "Facturador 4.0 Click.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": null,
+      "VariablesSectionElementsOrder": [
+        "BaseFacturas&Flowchart_1",
+        "CBTE_Asociado&Sequence_4"
+      ],
       "ArgumentsSectionElementsOrder": null,
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
@@ -27,7 +35,10 @@
     {
       "Path": "Facturador 4.0 Check.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": null,
+      "VariablesSectionElementsOrder": [
+        "BaseFacturas&Flowchart_1",
+        "CBTE_Asociado&Sequence_4"
+      ],
       "ArgumentsSectionElementsOrder": null,
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
