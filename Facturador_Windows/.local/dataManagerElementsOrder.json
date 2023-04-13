@@ -3,9 +3,9 @@
     {
       "Path": null,
       "SortBy": 0,
-      "VariablesSectionElementsOrder": null,
+      "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": null,
-      "ConstantsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },
     {
@@ -39,8 +39,8 @@
         "BaseFacturas&Flowchart_1",
         "CBTE_Asociado&Sequence_4"
       ],
-      "ArgumentsSectionElementsOrder": null,
-      "ConstantsSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     }
   ]
