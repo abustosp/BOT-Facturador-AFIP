@@ -19776,9 +19776,9 @@
     "restore": {
       "projectUniqueName": "Facturador_Windows",
       "projectName": "Facturador_Windows",
-      "projectPath": "C:\\Users\\Agustin Bustos\\Desktop\\BOT-Facturador-AFIP\\.local",
+      "projectPath": "F:\\Proyecto Uipath\\BOT-Facturador-AFIP\\.local",
       "packagesPath": "C:\\Users\\Agustin Bustos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Agustin Bustos\\Desktop\\BOT-Facturador-AFIP\\.local"
+      "outputPath": "F:\\Proyecto Uipath\\BOT-Facturador-AFIP\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {

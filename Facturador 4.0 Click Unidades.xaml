@@ -108,7 +108,7 @@
           <av:PointCollection x:Key="ConnectorLocation">300,179.5 300,228.5</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:ExcelApplicationScope Password="{x:Null}" AutoSave="False" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="434,170" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" InstanceCachePeriod="3000" ReadOnly="True" Visible="False" WorkbookPath="Archivo para hacer Facturas 3.0.xlsx">
+      <ui:ExcelApplicationScope Password="{x:Null}" AutoSave="False" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" InstanceCachePeriod="3000" ReadOnly="True" Visible="False" WorkbookPath="Archivo para hacer Facturas 3.0.xlsx">
         <ui:ExcelApplicationScope.Body>
           <ActivityAction x:TypeArguments="ui:WorkbookApplication">
             <ActivityAction.Argument>
@@ -138,19 +138,19 @@
               <av:PointCollection x:Key="ConnectorLocation">300,280.5 300,329.5</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Proceso en Firefox" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="BrowserScope_2" InformativeScreenshot="ff5ac79f6aa7fe6e09411afeb1c1110f" Selector="&lt;html app='firefox.exe' title='RCEL' /&gt;">
+          <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Proceso en Firefox" sap:VirtualizedContainerService.HintSize="893,10798" sap2010:WorkflowViewState.IdRef="BrowserScope_2" InformativeScreenshot="ff5ac79f6aa7fe6e09411afeb1c1110f" Selector="&lt;html app='firefox.exe' title='RCEL' /&gt;">
             <ui:BrowserScope.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                 </ActivityAction.Argument>
-                <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[BaseFacturas]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="684,4453" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[BaseFacturas]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="859,10651" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
                   <ui:ForEachRow.Body>
                     <ActivityAction x:TypeArguments="sd:DataRow">
                       <ActivityAction.Argument>
                         <DelegateInArgument x:TypeArguments="sd:DataRow" Name="Row" />
                       </ActivityAction.Argument>
-                      <Sequence DisplayName="Loop" sap:VirtualizedContainerService.HintSize="650,4338" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                      <Sequence DisplayName="Loop" sap:VirtualizedContainerService.HintSize="825,10536" sap2010:WorkflowViewState.IdRef="Sequence_4">
                         <Sequence.Variables>
                           <Variable x:TypeArguments="x:String" Default="[row(&quot;CBTE A&quot;).ToString]" Name="CBTE_Asociado" />
                         </Sequence.Variables>
@@ -159,7 +159,7 @@
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Click generar comprobantes" sap:VirtualizedContainerService.HintSize="588,107" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                        <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Click generar comprobantes" sap:VirtualizedContainerService.HintSize="763,107" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
                           <ui:Click.CursorPosition>
                             <ui:CursorPosition Position="Center">
                               <ui:CursorPosition.OffsetX>
@@ -181,7 +181,7 @@
                             </ui:Target>
                           </ui:Click.Target>
                         </ui:Click>
-                        <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" AlterIfDisabled="True" DisplayName="Seleccionar punto de venta" sap:VirtualizedContainerService.HintSize="588,135" sap2010:WorkflowViewState.IdRef="SelectItem_1" Item="[&quot;*&quot;+row(&quot;Pto de Venta&quot;).ToString +&quot;*&quot;]">
+                        <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" AlterIfDisabled="True" DisplayName="Seleccionar punto de venta" sap:VirtualizedContainerService.HintSize="763,135" sap2010:WorkflowViewState.IdRef="SelectItem_1" Item="[&quot;*&quot;+row(&quot;Pto de Venta&quot;).ToString +&quot;*&quot;]">
                           <ui:SelectItem.Items>
                             <scg:List x:TypeArguments="x:String" Capacity="4">
                               <x:String>seleccionar...</x:String>
@@ -199,7 +199,7 @@
                             </ui:Target>
                           </ui:SelectItem.Target>
                         </ui:SelectItem>
-                        <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" AlterIfDisabled="True" DisplayName="Seleccionar tipo" sap:VirtualizedContainerService.HintSize="588,135" sap2010:WorkflowViewState.IdRef="SelectItem_2" Item="[row(&quot;Tipo de comprobante&quot;).Tostring]">
+                        <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" AlterIfDisabled="True" DisplayName="Seleccionar tipo" sap:VirtualizedContainerService.HintSize="763,135" sap2010:WorkflowViewState.IdRef="SelectItem_2" Item="[row(&quot;Tipo de comprobante&quot;).Tostring]">
                           <ui:SelectItem.Items>
                             <scg:List x:TypeArguments="x:String" Capacity="32">
                               <x:String>Factura A</x:String>
@@ -232,7 +232,7 @@
                             </ui:Target>
                           </ui:SelectItem.Target>
                         </ui:SelectItem>
-                        <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Click continuar" sap:VirtualizedContainerService.HintSize="588,107" sap2010:WorkflowViewState.IdRef="Click_2" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                        <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Click continuar" sap:VirtualizedContainerService.HintSize="763,107" sap2010:WorkflowViewState.IdRef="Click_2" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
                           <ui:Click.CursorPosition>
                             <ui:CursorPosition Position="Center">
                               <ui:CursorPosition.OffsetX>
@@ -254,7 +254,7 @@
                             </ui:Target>
                           </ui:Click.Target>
                         </ui:Click>
-                        <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" ClickBeforeTyping="True" DisplayName="fecha de emision" EmptyField="True" sap:VirtualizedContainerService.HintSize="588,135" sap2010:WorkflowViewState.IdRef="TypeInto_155" SimulateType="True" Text="[string.Format(&quot;{0:dd/MM/yyyy}&quot;, row(&quot;Fecha&quot;))]">
+                        <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" ClickBeforeTyping="True" DisplayName="fecha de emision" EmptyField="True" sap:VirtualizedContainerService.HintSize="763,135" sap2010:WorkflowViewState.IdRef="TypeInto_155" SimulateType="True" Text="[string.Format(&quot;{0:dd/MM/yyyy}&quot;, row(&quot;Fecha&quot;))]">
                           <ui:TypeInto.Target>
                             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8ba9d505-6ea6-47cd-8e3f-5af01723cf02" InformativeScreenshot="1f5bf1c4846deae948e1870254901991" Selector="&lt;webctrl parentid='contenido' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='INPUT' /&gt;">
                               <ui:Target.TimeoutMS>
@@ -266,7 +266,7 @@
                             </ui:Target>
                           </ui:TypeInto.Target>
                         </ui:TypeInto>
-                        <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" AlterIfDisabled="True" DisplayName="Seleccionar concepto" sap:VirtualizedContainerService.HintSize="588,135" sap2010:WorkflowViewState.IdRef="SelectItem_69" Item="[&quot;?&quot; + row(&quot;Concepto&quot;).ToString]">
+                        <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" AlterIfDisabled="True" DisplayName="Seleccionar concepto" sap:VirtualizedContainerService.HintSize="763,135" sap2010:WorkflowViewState.IdRef="SelectItem_69" Item="[&quot;?&quot; + row(&quot;Concepto&quot;).ToString]">
                           <ui:SelectItem.Items>
                             <scg:List x:TypeArguments="x:String" Capacity="4">
                               <x:String>seleccionar...</x:String>
@@ -286,7 +286,7 @@
                             </ui:Target>
                           </ui:SelectItem.Target>
                         </ui:SelectItem>
-                        <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" ClickBeforeTyping="True" DeselectAfter="True" DisplayName="Fecha Desde" EmptyField="True" sap:VirtualizedContainerService.HintSize="588,135" sap2010:WorkflowViewState.IdRef="TypeInto_156" SimulateType="True" Text="[row(&quot;Desde&quot;).ToString]">
+                        <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" ClickBeforeTyping="True" DeselectAfter="True" DisplayName="Fecha Desde" EmptyField="True" sap:VirtualizedContainerService.HintSize="763,135" sap2010:WorkflowViewState.IdRef="TypeInto_156" SimulateType="True" Text="[row(&quot;Desde&quot;).ToString]">
                           <ui:TypeInto.Target>
                             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="dcf144cb-d539-4efa-acfc-09b71759eb93" InformativeScreenshot="714059dc014dabccb23b27d092458405" Selector="&lt;webctrl aaname='Desde' idx='2' /&gt;">
                               <ui:Target.TimeoutMS>
@@ -298,7 +298,7 @@
                             </ui:Target>
                           </ui:TypeInto.Target>
                         </ui:TypeInto>
-                        <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" ClickBeforeTyping="True" DeselectAfter="True" DisplayName="Fecha Hasta" EmptyField="True" sap:VirtualizedContainerService.HintSize="588,135" sap2010:WorkflowViewState.IdRef="TypeInto_157" SimulateType="True" Text="[row(&quot;Hasta&quot;).Tostring]">
+                        <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" ClickBeforeTyping="True" DeselectAfter="True" DisplayName="Fecha Hasta" EmptyField="True" sap:VirtualizedContainerService.HintSize="763,135" sap2010:WorkflowViewState.IdRef="TypeInto_157" SimulateType="True" Text="[row(&quot;Hasta&quot;).Tostring]">
                           <ui:TypeInto.Target>
                             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="179c04c6-41b9-4393-82e8-6d07ab834cc4" InformativeScreenshot="06d973fe2aff93925ffe1fb5ef17bf38" Selector="&lt;webctrl aaname='Hasta' idx='2' /&gt;">
                               <ui:Target.TimeoutMS>
@@ -310,7 +310,7 @@
                             </ui:Target>
                           </ui:TypeInto.Target>
                         </ui:TypeInto>
-                        <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" ClickBeforeTyping="True" DeselectAfter="True" DisplayName="Fecha Vto de pago" EmptyField="True" sap:VirtualizedContainerService.HintSize="588,135" sap2010:WorkflowViewState.IdRef="TypeInto_158" SimulateType="True" Text="[row(&quot;Vencimiento&quot;).ToString]">
+                        <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" ClickBeforeTyping="True" DeselectAfter="True" DisplayName="Fecha Vto de pago" EmptyField="True" sap:VirtualizedContainerService.HintSize="763,135" sap2010:WorkflowViewState.IdRef="TypeInto_158" SimulateType="True" Text="[row(&quot;Vencimiento&quot;).ToString]">
                           <ui:TypeInto.Target>
                             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ab62af70-dfbb-47fd-bfbc-259e19094723" InformativeScreenshot="701857e7b0b90f8526667023483a7b42" Selector="&lt;webctrl aaname='Vto. para el Pago' idx='2' /&gt;">
                               <ui:Target.TimeoutMS>
@@ -322,7 +322,7 @@
                             </ui:Target>
                           </ui:TypeInto.Target>
                         </ui:TypeInto>
-                        <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Click continuar" sap:VirtualizedContainerService.HintSize="588,107" sap2010:WorkflowViewState.IdRef="Click_104" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                        <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Click continuar" sap:VirtualizedContainerService.HintSize="763,107" sap2010:WorkflowViewState.IdRef="Click_104" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
                           <ui:Click.CursorPosition>
                             <ui:CursorPosition Position="Center">
                               <ui:CursorPosition.OffsetX>
@@ -344,14 +344,14 @@
                             </ui:Target>
                           </ui:Click.Target>
                         </ui:Click>
-                        <Sequence DisplayName="Sin Redondeo" sap:VirtualizedContainerService.HintSize="588,1796" sap2010:WorkflowViewState.IdRef="Sequence_69">
+                        <Sequence DisplayName="Sin Redondeo" sap:VirtualizedContainerService.HintSize="763,7847" sap2010:WorkflowViewState.IdRef="Sequence_69">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <If Condition="[row(&quot;Tipo de comprobante&quot;).ToString = &quot;Factura A&quot;]" DisplayName="If Sin Redondeo" sap:VirtualizedContainerService.HintSize="526,1685" sap2010:WorkflowViewState.IdRef="If_2">
+                          <If Condition="[row(&quot;Tipo de comprobante&quot;).ToString = &quot;Factura A&quot;]" DisplayName="If Sin Redondeo" sap:VirtualizedContainerService.HintSize="701,7736" sap2010:WorkflowViewState.IdRef="If_2">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -504,24 +504,24 @@
                               </Sequence>
                             </If.Then>
                             <If.Else>
-                              <Sequence sap:VirtualizedContainerService.HintSize="597,6197" sap2010:WorkflowViewState.IdRef="Sequence_68">
+                              <Sequence sap:VirtualizedContainerService.HintSize="667,6051" sap2010:WorkflowViewState.IdRef="Sequence_68">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="555,6107" sap2010:WorkflowViewState.IdRef="IfElseIf_1">
+                                <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="625,5963" sap2010:WorkflowViewState.IdRef="IfElseIf_1">
                                   <ui:IfElseIf.ConditionBlocks>
                                     <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
                                       <ui:IfElseIfBlock BlockType="If" Condition="[row(&quot;Tipo de comprobante&quot;).ToString = &quot;Factura B&quot;]">
                                         <ui:IfElseIfBlock.Then>
-                                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="463,1956" sap2010:WorkflowViewState.IdRef="Sequence_53">
+                                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="512,1885" sap2010:WorkflowViewState.IdRef="Sequence_53">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                            <Sequence DisplayName="Factura B Sin Redondeo" sap:VirtualizedContainerService.HintSize="421,1866" sap2010:WorkflowViewState.IdRef="Sequence_52">
+                                            <Sequence DisplayName="Factura B Sin Redondeo" sap:VirtualizedContainerService.HintSize="450,1774" sap2010:WorkflowViewState.IdRef="Sequence_52">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -552,7 +552,7 @@
                                                   </ui:Target>
                                                 </ui:SelectItem.Target>
                                               </ui:SelectItem>
-                                              <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" AlterIfDisabled="True" DisplayName="Tipo de DOC" sap:VirtualizedContainerService.HintSize="359,144" sap2010:WorkflowViewState.IdRef="SelectItem_73" Item="[&quot;*&quot; + row(&quot;Tipo CUIT&quot;).ToString]">
+                                              <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" AlterIfDisabled="True" DisplayName="Tipo de DOC" sap:VirtualizedContainerService.HintSize="388,135" sap2010:WorkflowViewState.IdRef="SelectItem_73" Item="[&quot;*&quot; + row(&quot;Tipo CUIT&quot;).ToString]">
                                                 <ui:SelectItem.Items>
                                                   <scg:List x:TypeArguments="x:String" Capacity="0" />
                                                 </ui:SelectItem.Items>
@@ -567,7 +567,7 @@
                                                   </ui:Target>
                                                 </ui:SelectItem.Target>
                                               </ui:SelectItem>
-                                              <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" ClickBeforeTyping="True" DeselectAfter="True" DisplayName="CUIT B" EmptyField="True" sap:VirtualizedContainerService.HintSize="359,144" sap2010:WorkflowViewState.IdRef="TypeInto_162" SimulateType="True" Text="[row(&quot;CUIT&quot;).ToString]">
+                                              <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" ClickBeforeTyping="True" DeselectAfter="True" DisplayName="CUIT B" EmptyField="True" sap:VirtualizedContainerService.HintSize="388,135" sap2010:WorkflowViewState.IdRef="TypeInto_162" SimulateType="True" Text="[row(&quot;CUIT&quot;).ToString]">
                                                 <ui:TypeInto.Target>
                                                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5597d4e8-bc81-4f71-b71b-298d83c52a70" InformativeScreenshot="31c38d8489fd4f07aba1407c57a9bf17" Selector="&lt;webctrl parentid='formulario' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='INPUT' /&gt;">
                                                     <ui:Target.TimeoutMS>
@@ -579,7 +579,7 @@
                                                   </ui:Target>
                                                 </ui:TypeInto.Target>
                                               </ui:TypeInto>
-                                              <ui:Check ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" Action="Check" AlterIfDisabled="True" DisplayName="Cuenta corriente" sap:VirtualizedContainerService.HintSize="359,116" sap2010:WorkflowViewState.IdRef="Check_19">
+                                              <ui:Check ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" Action="Check" AlterIfDisabled="True" DisplayName="Cuenta corriente" sap:VirtualizedContainerService.HintSize="388,107" sap2010:WorkflowViewState.IdRef="Check_19">
                                                 <ui:Check.Target>
                                                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="acacf517-0e8a-43d5-8b45-5a9a2bf15338" InformativeScreenshot="79227c09ed397425945567e0ae47713c" Selector="&lt;webctrl aaname='Contado Tarjeta de Débito &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Tipo *' parentid='formulario' tag='TABLE' /&gt;&lt;webctrl tableRow='7' tag='INPUT' /&gt;">
                                                     <ui:Target.TimeoutMS>
@@ -591,7 +591,7 @@
                                                   </ui:Target>
                                                 </ui:Check.Target>
                                               </ui:Check>
-                                              <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Continuar" sap:VirtualizedContainerService.HintSize="359,116" sap2010:WorkflowViewState.IdRef="Click_106" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                                              <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Continuar" sap:VirtualizedContainerService.HintSize="388,107" sap2010:WorkflowViewState.IdRef="Click_106" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
                                                 <ui:Click.CursorPosition>
                                                   <ui:CursorPosition Position="Center">
                                                     <ui:CursorPosition.OffsetX>
@@ -613,7 +613,7 @@
                                                   </ui:Target>
                                                 </ui:Click.Target>
                                               </ui:Click>
-                                              <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" ClickBeforeTyping="True" DeselectAfter="True" DisplayName="Concepto venta" EmptyField="True" sap:VirtualizedContainerService.HintSize="359,144" sap2010:WorkflowViewState.IdRef="TypeInto_163" SimulateType="True" Text="[row(&quot;Descripción del servicio&quot;).ToString]">
+                                              <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" ClickBeforeTyping="True" DeselectAfter="True" DisplayName="Concepto venta" EmptyField="True" sap:VirtualizedContainerService.HintSize="388,135" sap2010:WorkflowViewState.IdRef="TypeInto_163" SimulateType="True" Text="[row(&quot;Descripción del servicio&quot;).ToString]">
                                                 <ui:TypeInto.Target>
                                                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a65f8ac4-39fe-4c4f-93d3-41a05cf250ca" InformativeScreenshot="fc1345aea2752f991fdb5b26f08cd3b7" Selector="&lt;webctrl id='idoperacion' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='TEXTAREA' /&gt;">
                                                     <ui:Target.TimeoutMS>
@@ -625,7 +625,7 @@
                                                   </ui:Target>
                                                 </ui:TypeInto.Target>
                                               </ui:TypeInto>
-                                              <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" AlterIfDisabled="True" DisplayName="Seleccionar decimales" sap:VirtualizedContainerService.HintSize="359,144" sap2010:WorkflowViewState.IdRef="SelectItem_106" Item=" 6 decimales">
+                                              <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" AlterIfDisabled="True" DisplayName="Seleccionar decimales" sap:VirtualizedContainerService.HintSize="388,135" sap2010:WorkflowViewState.IdRef="SelectItem_106" Item=" 6 decimales">
                                                 <ui:SelectItem.Items>
                                                   <scg:List x:TypeArguments="x:String" Capacity="4">
                                                     <x:String> 2 decimales</x:String>
@@ -644,7 +644,7 @@
                                                   </ui:Target>
                                                 </ui:SelectItem.Target>
                                               </ui:SelectItem>
-                                              <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" ClickBeforeTyping="True" DeselectAfter="True" DisplayName="Cantidades" EmptyField="True" sap:VirtualizedContainerService.HintSize="359,144" sap2010:WorkflowViewState.IdRef="TypeInto_229" SimulateType="True" Text="[row(&quot;Unidades Facturador&quot;).ToString]">
+                                              <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" ClickBeforeTyping="True" DeselectAfter="True" DisplayName="Cantidades" EmptyField="True" sap:VirtualizedContainerService.HintSize="388,135" sap2010:WorkflowViewState.IdRef="TypeInto_229" SimulateType="True" Text="[row(&quot;Unidades Facturador&quot;).ToString]">
                                                 <ui:TypeInto.Target>
                                                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b4232989-efa3-4ee0-af11-79cfbc3f81ab" InformativeScreenshot="7c1d34f4a24da1904c50f977f06b3de0" Selector="&lt;webctrl id='idoperacion' tag='TABLE' /&gt;&lt;webctrl id='detalle_cantidad1' omit:tableRow='2' tag='INPUT' omit:type='text' /&gt;">
                                                     <ui:Target.TimeoutMS>
@@ -656,7 +656,7 @@
                                                   </ui:Target>
                                                 </ui:TypeInto.Target>
                                               </ui:TypeInto>
-                                              <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" ClickBeforeTyping="True" DeselectAfter="True" DisplayName="Precio unitario" EmptyField="True" sap:VirtualizedContainerService.HintSize="359,144" sap2010:WorkflowViewState.IdRef="TypeInto_230" SimulateType="True" Text="[row(&quot;Precio Facturador&quot;).ToString]">
+                                              <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" ClickBeforeTyping="True" DeselectAfter="True" DisplayName="Precio unitario" EmptyField="True" sap:VirtualizedContainerService.HintSize="388,135" sap2010:WorkflowViewState.IdRef="TypeInto_230" SimulateType="True" Text="[row(&quot;Precio Facturador&quot;).ToString]">
                                                 <ui:TypeInto.Target>
                                                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f0e020d7-19b2-4857-8a66-f3ea600cac7d" InformativeScreenshot="d051aff9b536277d6f57ab08054790a2" Selector="&lt;webctrl id='idoperacion' tag='TABLE' /&gt;&lt;webctrl id='detalle_precio1' tableRow='2' tag='INPUT' type='text' /&gt;">
                                                     <ui:Target.TimeoutMS>
@@ -668,7 +668,7 @@
                                                   </ui:Target>
                                                 </ui:TypeInto.Target>
                                               </ui:TypeInto>
-                                              <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" AlterIfDisabled="True" DisplayName="Aliuota" sap:VirtualizedContainerService.HintSize="359,144" sap2010:WorkflowViewState.IdRef="SelectItem_74" Item="[&quot;*&quot; + row(&quot;Alicuota IVA&quot;).ToString]">
+                                              <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" AlterIfDisabled="True" DisplayName="Aliuota" sap:VirtualizedContainerService.HintSize="388,135" sap2010:WorkflowViewState.IdRef="SelectItem_74" Item="[&quot;*&quot; + row(&quot;Alicuota IVA&quot;).ToString]">
                                                 <ui:SelectItem.Items>
                                                   <scg:List x:TypeArguments="x:String" Capacity="16">
                                                     <x:String>seleccionar...</x:String>
@@ -699,20 +699,20 @@
                                       </ui:IfElseIfBlock>
                                       <ui:IfElseIfBlock BlockType="ElseIf" Condition="[row(&quot;Tipo de comprobante&quot;).ToString = &quot;Nota de Crédito A&quot;]">
                                         <ui:IfElseIfBlock.Then>
-                                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="504,2602" sap2010:WorkflowViewState.IdRef="Sequence_56">
+                                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="574,2484" sap2010:WorkflowViewState.IdRef="Sequence_56">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                            <Sequence DisplayName="NCA Sin Redondeo" sap:VirtualizedContainerService.HintSize="462,2512" sap2010:WorkflowViewState.IdRef="Sequence_55">
+                                            <Sequence DisplayName="NCA Sin Redondeo" sap:VirtualizedContainerService.HintSize="512,2373" sap2010:WorkflowViewState.IdRef="Sequence_55">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
-                                              <ui:SelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Seleccionar situación IVA" sap:VirtualizedContainerService.HintSize="400,144" sap2010:WorkflowViewState.IdRef="SelectItem_75" Item="[&quot;*&quot; + Row(&quot;Condición IVA&quot;).ToString]">
+                                              <ui:SelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Seleccionar situación IVA" sap:VirtualizedContainerService.HintSize="450,135" sap2010:WorkflowViewState.IdRef="SelectItem_75" Item="[&quot;*&quot; + Row(&quot;Condición IVA&quot;).ToString]">
                                                 <ui:SelectItem.Items>
                                                   <scg:List x:TypeArguments="x:String" Capacity="8">
                                                     <x:String>seleccionar...</x:String>
@@ -733,7 +733,7 @@
                                                   </ui:Target>
                                                 </ui:SelectItem.Target>
                                               </ui:SelectItem>
-                                              <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" ClickBeforeTyping="True" DeselectAfter="True" DisplayName="CUIT" EmptyField="True" sap:VirtualizedContainerService.HintSize="400,144" sap2010:WorkflowViewState.IdRef="TypeInto_165" SimulateType="True" Text="[row(&quot;CUIT&quot;).ToString]">
+                                              <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" ClickBeforeTyping="True" DeselectAfter="True" DisplayName="CUIT" EmptyField="True" sap:VirtualizedContainerService.HintSize="450,135" sap2010:WorkflowViewState.IdRef="TypeInto_165" SimulateType="True" Text="[row(&quot;CUIT&quot;).ToString]">
                                                 <ui:TypeInto.Target>
                                                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9ef779ce-791a-4115-932d-85f787ba87b1" InformativeScreenshot="c6334121f386f2e8ebe363caece6e414" Selector="&lt;webctrl parentid='formulario' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='INPUT' type='text' /&gt;">
                                                     <ui:Target.TimeoutMS>
@@ -745,7 +745,7 @@
                                                   </ui:Target>
                                                 </ui:TypeInto.Target>
                                               </ui:TypeInto>
-                                              <ui:Check ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" Action="Check" AlterIfDisabled="True" DisplayName="Cuenta corriente" sap:VirtualizedContainerService.HintSize="400,116" sap2010:WorkflowViewState.IdRef="Check_20">
+                                              <ui:Check ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" Action="Check" AlterIfDisabled="True" DisplayName="Cuenta corriente" sap:VirtualizedContainerService.HintSize="450,107" sap2010:WorkflowViewState.IdRef="Check_20">
                                                 <ui:Check.Target>
                                                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="acacf517-0e8a-43d5-8b45-5a9a2bf15338" InformativeScreenshot="79227c09ed397425945567e0ae47713c" Selector="&lt;webctrl aaname='Contado Tarjeta de Débito &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Tipo *' parentid='formulario' tag='TABLE' /&gt;&lt;webctrl tableRow='7' tag='INPUT' /&gt;">
                                                     <ui:Target.TimeoutMS>
@@ -757,14 +757,14 @@
                                                   </ui:Target>
                                                 </ui:Check.Target>
                                               </ui:Check>
-                                              <Sequence DisplayName="CBTE Asociado" sap:VirtualizedContainerService.HintSize="400,790" sap2010:WorkflowViewState.IdRef="Sequence_54">
+                                              <Sequence DisplayName="CBTE Asociado" sap:VirtualizedContainerService.HintSize="450,743" sap2010:WorkflowViewState.IdRef="Sequence_54">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                   </scg:Dictionary>
                                                 </sap:WorkflowViewStateService.ViewState>
-                                                <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Seleccionar comporbante asociado" sap:VirtualizedContainerService.HintSize="338,116" sap2010:WorkflowViewState.IdRef="Click_107" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                                                <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Seleccionar comporbante asociado" sap:VirtualizedContainerService.HintSize="388,107" sap2010:WorkflowViewState.IdRef="Click_107" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
                                                   <ui:Click.CursorPosition>
                                                     <ui:CursorPosition Position="Center">
                                                       <ui:CursorPosition.OffsetX>
@@ -786,7 +786,7 @@
                                                     </ui:Target>
                                                   </ui:Click.Target>
                                                 </ui:Click>
-                                                <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" DisplayName="Pto A" sap:VirtualizedContainerService.HintSize="338,144" sap2010:WorkflowViewState.IdRef="TypeInto_166" SimulateType="True" Text="[row(&quot;Pto A&quot;).ToString]">
+                                                <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" DisplayName="Pto A" sap:VirtualizedContainerService.HintSize="388,135" sap2010:WorkflowViewState.IdRef="TypeInto_166" SimulateType="True" Text="[row(&quot;Pto A&quot;).ToString]">
                                                   <ui:TypeInto.Target>
                                                     <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a8423868-dfbb-46ea-b185-f73fd6f0803f" InformativeScreenshot="c86387bb20e73ae2e07271e6c0725893" Selector="&lt;webctrl tableRow='2' tag='INPUT' colName='Tipo de Comprobante' parentid='tablacmpasoc' tableCol='1' /&gt;">
                                                       <ui:Target.TimeoutMS>
@@ -798,7 +798,7 @@
                                                     </ui:Target>
                                                   </ui:TypeInto.Target>
                                                 </ui:TypeInto>
-                                                <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" DisplayName="CBTE A" sap:VirtualizedContainerService.HintSize="338,144" sap2010:WorkflowViewState.IdRef="TypeInto_167" SimulateType="True" Text="[row(&quot;Cbte A&quot;).ToString]">
+                                                <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" DisplayName="CBTE A" sap:VirtualizedContainerService.HintSize="388,135" sap2010:WorkflowViewState.IdRef="TypeInto_167" SimulateType="True" Text="[row(&quot;Cbte A&quot;).ToString]">
                                                   <ui:TypeInto.Target>
                                                     <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a8423868-dfbb-46ea-b185-f73fd6f0803f" InformativeScreenshot="c86387bb20e73ae2e07271e6c0725893" Selector="&lt;webctrl name='cmpAsociadoNro' tableRow='2' tag='INPUT' /&gt;">
                                                       <ui:Target.TimeoutMS>
@@ -810,7 +810,7 @@
                                                     </ui:Target>
                                                   </ui:TypeInto.Target>
                                                 </ui:TypeInto>
-                                                <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" DisplayName="Fecha de Emision A" sap:VirtualizedContainerService.HintSize="338,144" sap2010:WorkflowViewState.IdRef="TypeInto_168" SimulateType="True" Text="[row(&quot;Fecha asociada&quot;).ToString]">
+                                                <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" DisplayName="Fecha de Emision A" sap:VirtualizedContainerService.HintSize="388,135" sap2010:WorkflowViewState.IdRef="TypeInto_168" SimulateType="True" Text="[row(&quot;Fecha asociada&quot;).ToString]">
                                                   <ui:TypeInto.Target>
                                                     <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a8423868-dfbb-46ea-b185-f73fd6f0803f" InformativeScreenshot="c86387bb20e73ae2e07271e6c0725893" Selector="&lt;webctrl name='cmpAsociadoFechaEmision' tableRow='2' tag='INPUT' /&gt;">
                                                       <ui:Target.TimeoutMS>
@@ -823,7 +823,7 @@
                                                   </ui:TypeInto.Target>
                                                 </ui:TypeInto>
                                               </Sequence>
-                                              <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Continuar" sap:VirtualizedContainerService.HintSize="400,116" sap2010:WorkflowViewState.IdRef="Click_108" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                                              <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Continuar" sap:VirtualizedContainerService.HintSize="450,107" sap2010:WorkflowViewState.IdRef="Click_108" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
                                                 <ui:Click.CursorPosition>
                                                   <ui:CursorPosition Position="Center">
                                                     <ui:CursorPosition.OffsetX>
@@ -845,7 +845,7 @@
                                                   </ui:Target>
                                                 </ui:Click.Target>
                                               </ui:Click>
-                                              <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" ClickBeforeTyping="True" DeselectAfter="True" DisplayName="Concepto venta" EmptyField="True" sap:VirtualizedContainerService.HintSize="400,144" sap2010:WorkflowViewState.IdRef="TypeInto_169" SimulateType="True" Text="[row(&quot;Descripción del servicio&quot;).ToString]">
+                                              <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" ClickBeforeTyping="True" DeselectAfter="True" DisplayName="Concepto venta" EmptyField="True" sap:VirtualizedContainerService.HintSize="450,135" sap2010:WorkflowViewState.IdRef="TypeInto_169" SimulateType="True" Text="[row(&quot;Descripción del servicio&quot;).ToString]">
                                                 <ui:TypeInto.Target>
                                                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a65f8ac4-39fe-4c4f-93d3-41a05cf250ca" InformativeScreenshot="fc1345aea2752f991fdb5b26f08cd3b7" Selector="&lt;webctrl id='idoperacion' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='TEXTAREA' /&gt;">
                                                     <ui:Target.TimeoutMS>
@@ -857,7 +857,7 @@
                                                   </ui:Target>
                                                 </ui:TypeInto.Target>
                                               </ui:TypeInto>
-                                              <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" AlterIfDisabled="True" DisplayName="Seleccionar decimales" sap:VirtualizedContainerService.HintSize="400,144" sap2010:WorkflowViewState.IdRef="SelectItem_107" Item=" 6 decimales">
+                                              <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" AlterIfDisabled="True" DisplayName="Seleccionar decimales" sap:VirtualizedContainerService.HintSize="450,135" sap2010:WorkflowViewState.IdRef="SelectItem_107" Item=" 6 decimales">
                                                 <ui:SelectItem.Items>
                                                   <scg:List x:TypeArguments="x:String" Capacity="4">
                                                     <x:String> 2 decimales</x:String>
@@ -876,7 +876,7 @@
                                                   </ui:Target>
                                                 </ui:SelectItem.Target>
                                               </ui:SelectItem>
-                                              <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" ClickBeforeTyping="True" DeselectAfter="True" DisplayName="Cantidades" EmptyField="True" sap:VirtualizedContainerService.HintSize="400,144" sap2010:WorkflowViewState.IdRef="TypeInto_231" SimulateType="True" Text="[row(&quot;Unidades Facturador&quot;).ToString]">
+                                              <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" ClickBeforeTyping="True" DeselectAfter="True" DisplayName="Cantidades" EmptyField="True" sap:VirtualizedContainerService.HintSize="450,135" sap2010:WorkflowViewState.IdRef="TypeInto_231" SimulateType="True" Text="[row(&quot;Unidades Facturador&quot;).ToString]">
                                                 <ui:TypeInto.Target>
                                                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b4232989-efa3-4ee0-af11-79cfbc3f81ab" InformativeScreenshot="7c1d34f4a24da1904c50f977f06b3de0" Selector="&lt;webctrl id='idoperacion' tag='TABLE' /&gt;&lt;webctrl id='detalle_cantidad1' omit:tableRow='2' tag='INPUT' omit:type='text' /&gt;">
                                                     <ui:Target.TimeoutMS>
@@ -888,7 +888,7 @@
                                                   </ui:Target>
                                                 </ui:TypeInto.Target>
                                               </ui:TypeInto>
-                                              <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" ClickBeforeTyping="True" DeselectAfter="True" DisplayName="Precio unitario" EmptyField="True" sap:VirtualizedContainerService.HintSize="400,144" sap2010:WorkflowViewState.IdRef="TypeInto_232" SimulateType="True" Text="[row(&quot;Precio Facturador&quot;).ToString]">
+                                              <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" ClickBeforeTyping="True" DeselectAfter="True" DisplayName="Precio unitario" EmptyField="True" sap:VirtualizedContainerService.HintSize="450,135" sap2010:WorkflowViewState.IdRef="TypeInto_232" SimulateType="True" Text="[row(&quot;Precio Facturador&quot;).ToString]">
                                                 <ui:TypeInto.Target>
                                                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f0e020d7-19b2-4857-8a66-f3ea600cac7d" InformativeScreenshot="d051aff9b536277d6f57ab08054790a2" Selector="&lt;webctrl id='idoperacion' tag='TABLE' /&gt;&lt;webctrl id='detalle_precio1' tableRow='2' tag='INPUT' type='text' /&gt;">
                                                     <ui:Target.TimeoutMS>
@@ -900,7 +900,7 @@
                                                   </ui:Target>
                                                 </ui:TypeInto.Target>
                                               </ui:TypeInto>
-                                              <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" AlterIfDisabled="True" DisplayName="Aliuota" sap:VirtualizedContainerService.HintSize="400,144" sap2010:WorkflowViewState.IdRef="SelectItem_76" Item="[&quot;*&quot; + row(&quot;Alicuota IVA&quot;).ToString]">
+                                              <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" AlterIfDisabled="True" DisplayName="Aliuota" sap:VirtualizedContainerService.HintSize="450,135" sap2010:WorkflowViewState.IdRef="SelectItem_76" Item="[&quot;*&quot; + row(&quot;Alicuota IVA&quot;).ToString]">
                                                 <ui:SelectItem.Items>
                                                   <scg:List x:TypeArguments="x:String" Capacity="16">
                                                     <x:String>seleccionar...</x:String>
@@ -931,13 +931,13 @@
                                       </ui:IfElseIfBlock>
                                       <ui:IfElseIfBlock BlockType="ElseIf" Condition="[row(&quot;Tipo de comprobante&quot;).ToString = &quot;Nota de Débito A&quot;]">
                                         <ui:IfElseIfBlock.Then>
-                                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="442,180" sap2010:WorkflowViewState.IdRef="Sequence_59">
+                                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="512,192" sap2010:WorkflowViewState.IdRef="Sequence_59">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                            <Sequence DisplayName="NDA Sin Redondeo" sap:VirtualizedContainerService.HintSize="400,90" sap2010:WorkflowViewState.IdRef="Sequence_58">
+                                            <Sequence DisplayName="NDA Sin Redondeo" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_58">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1163,13 +1163,13 @@
                                       </ui:IfElseIfBlock>
                                       <ui:IfElseIfBlock BlockType="ElseIf" Condition="[row(&quot;Tipo de comprobante&quot;).ToString = &quot;Nota de Crédito B&quot;]">
                                         <ui:IfElseIfBlock.Then>
-                                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="442,180" sap2010:WorkflowViewState.IdRef="Sequence_62">
+                                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="512,192" sap2010:WorkflowViewState.IdRef="Sequence_62">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                            <Sequence DisplayName="NCB Sin Redondeo" sap:VirtualizedContainerService.HintSize="400,90" sap2010:WorkflowViewState.IdRef="Sequence_61">
+                                            <Sequence DisplayName="NCB Sin Redondeo" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_61">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1413,13 +1413,13 @@
                                       </ui:IfElseIfBlock>
                                       <ui:IfElseIfBlock BlockType="ElseIf" Condition="[row(&quot;Tipo de comprobante&quot;).ToString = &quot;Nota de Débito B&quot;]">
                                         <ui:IfElseIfBlock.Then>
-                                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="442,180" sap2010:WorkflowViewState.IdRef="Sequence_65">
+                                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="512,192" sap2010:WorkflowViewState.IdRef="Sequence_65">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                            <Sequence DisplayName="NDB Sin Redondeo" sap:VirtualizedContainerService.HintSize="400,90" sap2010:WorkflowViewState.IdRef="Sequence_64">
+                                            <Sequence DisplayName="NDB Sin Redondeo" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_64">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1663,13 +1663,13 @@
                                       </ui:IfElseIfBlock>
                                       <ui:IfElseIfBlock BlockType="ElseIf" Condition="[row(&quot;Tipo de comprobante&quot;).ToString = &quot;Factura C&quot;]">
                                         <ui:IfElseIfBlock.Then>
-                                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="442,180" sap2010:WorkflowViewState.IdRef="Sequence_67">
+                                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="512,192" sap2010:WorkflowViewState.IdRef="Sequence_67">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                            <Sequence DisplayName="Factura C Sin Redondeo" sap:VirtualizedContainerService.HintSize="400,90" sap2010:WorkflowViewState.IdRef="Sequence_66">
+                                            <Sequence DisplayName="Factura C Sin Redondeo" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_66">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1827,7 +1827,7 @@
                             </If.Else>
                           </If>
                         </Sequence>
-                        <If Condition="[row(&quot;Redondeo&quot;).ToString = &quot;0.00&quot;]" DisplayName="If anidado" sap:VirtualizedContainerService.HintSize="588,52" sap2010:WorkflowViewState.IdRef="If_1">
+                        <If Condition="[row(&quot;Redondeo&quot;).ToString = &quot;0.00&quot;]" DisplayName="If anidado" sap:VirtualizedContainerService.HintSize="763,52" sap2010:WorkflowViewState.IdRef="If_1">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1932,7 +1932,7 @@
                             </Sequence>
                           </If.Else>
                         </If>
-                        <Sequence DisplayName="Continuar, Checkear y volver al menú principal" sap:VirtualizedContainerService.HintSize="588,633" sap2010:WorkflowViewState.IdRef="Sequence_49">
+                        <Sequence DisplayName="Continuar, Checkear y volver al menú principal" sap:VirtualizedContainerService.HintSize="763,780" sap2010:WorkflowViewState.IdRef="Sequence_49">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1973,10 +1973,26 @@
                               </ui:CursorPosition>
                             </ui:Click.CursorPosition>
                             <ui:Click.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="77daf0d9-a85d-4f0d-9ec6-052c56585526" InformativeScreenshot="49ed16da5bef9ca9219492ee10281908" Selector="&lt;webctrl id='btngenerar' tag='INPUT' /&gt;">
-                                <ui:Target.TimeoutMS>
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="77daf0d9-a85d-4f0d-9ec6-052c56585526" InformativeScreenshot="49ed16da5bef9ca9219492ee10281908" Selector="&lt;webctrl id='btngenerar' tag='INPUT' /&gt;" TimeoutMS="500">
+                                <ui:Target.WaitForReady>
+                                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                                </ui:Target.WaitForReady>
+                              </ui:Target>
+                            </ui:Click.Target>
+                          </ui:Click>
+                          <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Aceptar" sap:VirtualizedContainerService.HintSize="450,107" sap2010:WorkflowViewState.IdRef="Click_130" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                            <ui:Click.CursorPosition>
+                              <ui:CursorPosition Position="Center">
+                                <ui:CursorPosition.OffsetX>
                                   <InArgument x:TypeArguments="x:Int32" />
-                                </ui:Target.TimeoutMS>
+                                </ui:CursorPosition.OffsetX>
+                                <ui:CursorPosition.OffsetY>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:CursorPosition.OffsetY>
+                              </ui:CursorPosition>
+                            </ui:Click.CursorPosition>
+                            <ui:Click.Target>
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="81a499b6-9350-4803-b76e-1efbdbb83a20" InformativeScreenshot="947451eade1d31fd9525e68110650c96" Selector="&lt;wnd app='firefox.exe' cls='MozillaWindowClass' title='RCEL — Mozilla Firefox' /&gt;&lt;ctrl name='Aceptar' role='push button' /&gt;" TimeoutMS="500">
                                 <ui:Target.WaitForReady>
                                   <InArgument x:TypeArguments="ui:WaitForReady" />
                                 </ui:Target.WaitForReady>
