@@ -28,8 +28,8 @@
         "BaseFacturas&Flowchart_1",
         "CBTE_Asociado&Sequence_4"
       ],
-      "ArgumentsSectionElementsOrder": null,
-      "ConstantsSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },
     {
