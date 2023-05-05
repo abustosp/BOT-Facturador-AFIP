@@ -9,7 +9,7 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "Facturador Simplificado 4.0.xaml",
+      "Path": "Facturador 4.0 Click Guarda Archivo.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
         "BaseFacturas&Sequence_256",
@@ -47,6 +47,18 @@
       "Path": "Facturador 4.0 Click Unidades.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "BaseFacturas&Flowchart_1",
+        "CBTE_Asociado&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Facturador 4.0 Click Unidades Item.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "FilaRCEL&Sequence_50",
         "BaseFacturas&Flowchart_1",
         "CBTE_Asociado&Sequence_4"
       ],
