@@ -58,11 +58,16 @@ Los pasos para ejecutar el bot son los siguientes:
 
 ---
 
-## Videos que pueden ser de utilidad
+### Links de Interés:
 
-1. Descarga de BOTs de repositorios de GitHub con Uipath: https://youtu.be/hD5BH7YzABw
+- Link de invitación al grupo de RPA en Discord: https://discord.gg/KVYyryvAcD
 
-2. Descarga e instalación de GIT para descargar repositorios (en caso que no esta habilitada la funcionalidad nativa de Clonar los repositorios): https://youtu.be/ujk27tRdA80
+- Link de invitación al grupo de RPA en WhatsApp: https://chat.whatsapp.com/IekktfvfTNLCkdIagO6xz3
+
+- Tutorial de Descarga de Bots desde Uipath: https://youtu.be/hD5BH7YzABw
+
+- Tutorial de Instalación y descarga de Repositorios con Git: https://youtu.be/ujk27tRdA80
+
 
 ---
 
@@ -86,7 +91,9 @@ Cualquier cosa pueden contactarme en:
 
 <!-- [![Cafecito](https://img.shields.io/badge/-Cafecito-9cf?style=for-the-badge)](https://cafecito.app/abustos) -->
 
-[<img src="https://santanderpost.com.ar/wp-content/uploads/2022/02/Cafecito-.jpg" title="Cafecito" height="30" width="65\">](https://cafecito.app/abustos)
+<!--[<img src="https://santanderpost.com.ar/wp-content/uploads/2022/02/Cafecito-.jpg" title="Cafecito" height="30" width="65\">](https://cafecito.app/abustos) -->
+
+[![Invitame un café en cafecito.app](https://cdn.cafecito.app/imgs/buttons/button_5.svg)](https://cafecito.app/abustos)
 
 <br/>
 
