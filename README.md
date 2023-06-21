@@ -40,6 +40,9 @@ Los pasos para ejecutar el bot son los siguientes:
 
 - El Bot corre en Firefox (se puede configurar para Chrome pero se recomienda el primero por temas de rendimiento) y en Windows 10 cómo mínimo
 
+  - En firefox hay que tenerlo configurado en Español de Argentina, tener el complemento de UiPath y tener configurado para que siempre pregunte donde guardar los archivos.
+
+
 - Para Ejecutar el BOT se debe completar la información en el Excel (hay que tener en cuenta el formato regional de Excel, en algunos casos hay que reemplazar en todas las fórmulas los AAAA por YYYY)
 
 - En caso que no se guarden los Archivos con el nombre definido en el Excel se debe ejecutar el bot que contiene en su nombre "sin ST"
