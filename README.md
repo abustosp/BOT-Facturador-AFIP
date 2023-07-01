@@ -47,8 +47,10 @@ Los pasos para ejecutar el bot son los siguientes:
 5. Una vez Descargados los archivos se debe:
    
    1. Abrir el project.json o archivo .xaml
+
+   2. Seleccionar el Sub-bot adecuado.
    
-   2. Ejecutarlo (hacer click en el boton de "Play").
+   3. Ejecutarlo (hacer click en el boton de "Play").
 
 ---
 
@@ -69,8 +71,6 @@ Los pasos para ejecutar el bot son los siguientes:
     3. La descarga de archivos debe estar configurada para que no se pregunte si se quiere guardar el archivo (si el archivo aparece en la lista tiene que estar configurado con la opción de "Guardar Archivo" por ejemplo en el caso de los PDF y XLSX o planillas de cálculo)
 
     ![Configuración de descarga](https://github.com/abustosp/Configuraciones/blob/master/Firefox/Descarga-de-Archivos.png "Configuración de descarga")
-
-- Para Ejecutar el BOT se debe completar la información en el Excel (hay que tener en cuenta el formato regional de Excel, en algunos casos hay que reemplazar en todas las fórmulas los AAAA por YYYY)
 
 - En caso que no se guarden los Archivos con el nombre definido en el Excel se debe ejecutar el bot que contiene en su nombre "sin ST"
 
