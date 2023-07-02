@@ -2,7 +2,7 @@
   "name": "Facturador_Windows",
   "projectId": "2a340cbf-449f-46fa-84c9-d9bba13e7576",
   "description": "Facturador en Comprobantes en línea",
-  "main": "Facturador 2.0.xaml",
+  "main": "Facturador 4.0 Click Unidades.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.12.3]",
     "UiPath.Mail.Activities": "[1.15.2]",
@@ -56,6 +56,12 @@
     {
       "filePath": "Facturador 2.0.xaml",
       "uniqueId": "c283f0e9-517e-4f4a-8e3f-a45999db863a",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Facturador 4.0 Click Unidades.xaml",
+      "uniqueId": "5f809ebe-aa55-48fc-93bb-3d32c9fdd6d5",
       "input": [],
       "output": []
     }
