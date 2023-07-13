@@ -1072,7 +1072,7 @@
                                 </sap:WorkflowViewStateService.ViewState>
                                 <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Nombre Archivo" sap:VirtualizedContainerService.HintSize="334,107" sap2010:WorkflowViewState.IdRef="GetValue_4">
                                   <ui:GetValue.Target>
-                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ff5f6c3-f97d-45d9-98b6-04682316ae67" InformativeScreenshot="d9bef452afff08f2be733e884b1fcab9" Selector="&lt;wnd app='firefox.exe' omit:cls='#32770' omit:title='Ingrese nombre de archivo a guardar…' /&gt;&lt;wnd omit:aaname='Panel del explorador' omit:cls='DirectUIHWND' /&gt;&lt;wnd omit:aaname='Nombre de archivo:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;">
+                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ff5f6c3-f97d-45d9-98b6-04682316ae67" InformativeScreenshot="d9bef452afff08f2be733e884b1fcab9" Selector="&lt;wnd app='firefox.exe' cls='#32770' omit:title='Ingrese nombre de archivo a guardar…' /&gt;&lt;wnd omit:aaname='Panel del explorador' omit:cls='DirectUIHWND' /&gt;&lt;wnd omit:aaname='Nombre de archivo:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;">
                                       <ui:Target.TimeoutMS>
                                         <InArgument x:TypeArguments="x:Int32" />
                                       </ui:Target.TimeoutMS>
