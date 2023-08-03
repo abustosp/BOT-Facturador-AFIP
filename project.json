@@ -2,7 +2,7 @@
   "name": "Facturador-monousuario",
   "projectId": "2a340cbf-449f-46fa-84c9-d9bba13e7576",
   "description": "Facturador en Comprobantes en línea",
-  "main": "Facturador 4.0 Click Unidades.xaml",
+  "main": "Facturador 4.0 Unidades.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "2.12.3",
     "UiPath.System.Activities": "22.4.1",
@@ -59,8 +59,8 @@
       "output": []
     },
     {
-      "filePath": "Facturador 4.0 Click Unidades.xaml",
-      "uniqueId": "5f809ebe-aa55-48fc-93bb-3d32c9fdd6d5",
+      "filePath": "Facturador 4.0 Unidades.xaml",
+      "uniqueId": "12a9972b-dab0-4bcd-9be3-6beeec546ea8",
       "input": [],
       "output": []
     }
