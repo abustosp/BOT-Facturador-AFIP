@@ -56,15 +56,11 @@ Los pasos para ejecutar el bot son los siguientes:
 
 ## Verisones del BOT
 
-- Facturador 4.0 Check: Primera versión del Bot. se llama así porque utiliza la actividad Check (en un momento se rompio con una actualización de Uipath). No descarga los archivos y Utiliza la Base del Neto Gravado.
+- Facturador 4.0 Base: Primera versión del Bot. solo carga el Neto Grabado.
 
-- Facturador 4.0 Click: Es exactamente igual que la anterior pero se reemplaza la actividad Check por la actividad Click.
+- Facturador 4.0 Unidades: Es exactamente igual que la anterior pero se reemplaza la base del Neto Gravado por la base de Unidades y las Unidades.
 
-- Facturador 4.0 Click Unidades: Es exactamente igual que la anterior pero se reemplaza la base del Neto Gravado por la base de Unidades y las Unidades.
-
-- Facturador 4.0 Click Guarda Archivo: Es exactamente igual que la versión 2 pero se descargan las facturas generadas y se guardan con el nombre definido en el Excel.
-
-- Facturador 4.0 Click Unidades Item: Es exactamente igual que la versión 3 y además se vuelve multilinea (si la factura se hace a una persona con la misma denominación y tipo de documento se hace en la misma factura).
+- Facturador 4.0 Click Unidades Item: Es exactamente igual que la versión 2 y además se vuelve multilinea (si la factura se hace a una persona con la misma denominación y tipo de documento se hace en la misma factura).
 
 ---
 
