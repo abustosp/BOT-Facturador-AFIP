@@ -6,7 +6,7 @@ Esta el la versión monousuario: No inicia ni cierra sesión de distintos contri
 
 ---
 
-El licenciamiento es con GPL (es decir que no se puede distribuir comercialmente, solamente GRATIS). y si se utiliza este el código, su derivado también debe ser distribuido abierta y gratuitamente.
+El licenciamiento es bajo PL (es decir que no se puede distribuir comercialmente, solamente GRATIS). y si se utiliza este el código, su derivado también debe ser distribuido abierta y gratuitamente.
 
 ---
 
@@ -20,33 +20,73 @@ Los pasos para ejecutar el bot son los siguientes:
 
 3. Instalar la version el Studio (no la Studio X).
 
+    - Si se instala la versión Studio X se debe cambiar la versión del proyecto a Studio X con desde las configuraciones
+
+    ![Configuración de versión](https://github.com/abustosp/Configuraciones/blob/master/Uipath/Cambiar-a-Studio.png?raw=true "Configuración de versión")
+
+      - Si no permite hacer este cambio se debe:
+
+        1. Iniciar sesión en Uipath cloud.
+
+        2. Eliminar la organización.
+
+        3. Crear una nueva organización.
+
 4. Descargar el BOT. Acá hay 3 opciones:
    
    1. Descargar el ZIP.
    
    2. Descargarlo con la integración de GIT desde el Uipath.
+
+      - Si no aparece la opción de GIT en el Uipath se debe instalar el GIT desde las configuraciones de Uipath
+
+        ![Configuración de GIT](https://github.com/abustosp/Configuraciones/blob/master/Uipath/Habilitar-GIT.png?raw=true "Configuración de GIT")
    
-   3. Descargar el repositorio con GIT utilizando el comando "git clone"
+   3. Descargar el repositorio con GIT utilizando el comando `git clone https://github.com/abustosp/BOT-Facturador-AFIP.git`
 
 5. Una vez Descargados los archivos se debe:
    
    1. Abrir el project.json o archivo .xaml
+
+   2. Seleccionar el Sub-bot adecuado.
    
-   2. Ejecutarlo (hacer click en el boton de "Play").
+   3. Ejecutarlo (hacer click en el boton de "Play").
 
 ---
 
-## Particularidades del BOT:
+## Verisones del BOT
+
+- Facturador 4.0 Base: Primera versión del Bot. solo carga el Neto Grabado.
+
+- Facturador 4.0 Unidades: Es exactamente igual que la anterior pero se reemplaza la base del Neto Gravado por la base de Unidades y las Unidades.
+
+- Facturador 4.0 Click Unidades Item: Es exactamente igual que la versión 2 y además se vuelve multilinea (si la factura se hace a una persona con la misma denominación y tipo de documento se hace en la misma factura).
+
+---
+
+## Configuraciones del BOT:
 
 - El Bot corre en Firefox (se puede configurar para Chrome pero se recomienda el primero por temas de rendimiento) y en Windows 10 cómo mínimo
 
-- Para Ejecutar el BOT se debe completar la infmación en el Excel (hay que tener en cuenta el formato regional de Excel, en algunos casos hay que reemplazar en todas las fórmulas los AAAA por YYYY)
+  - Firefox se debe configurar de la siguiente manera:
+
+    1. El idioma tiene que estar en Español de Argentina
+
+    ![Configuración de idioma](https://github.com/abustosp/Configuraciones/blob/master/Firefox/Idioma-Espa%C3%B1ol-ARG.png?raw=true "Configuración de idioma")
+
+    2. La descarga de archivos debe estar configurada para que se pregunte donde guardarlos
+
+    ![Configuración de descarga](https://raw.githubusercontent.com/abustosp/Configuraciones/master/Firefox/Ubicacion-de-descargas.png "Configuración de descarga")
+
+    3. La descarga de archivos debe estar configurada para que no se pregunte si se quiere guardar el archivo (si el archivo aparece en la lista tiene que estar configurado con la opción de "Guardar Archivo" por ejemplo en el caso de los PDF y XLSX o planillas de cálculo)
+
+    ![Configuración de descarga](https://raw.githubusercontent.com/abustosp/Configuraciones/master/Firefox/Descarga-de-Archivos.png "Configuración de descarga")
 
 - En caso que no se guarden los Archivos con el nombre definido en el Excel se debe ejecutar el bot que contiene en su nombre "sin ST"
 
-- Las ubicaciones del Excel deben ir desde el Disco hasta la Ubicación completa con un backslash final (ejemplo: "C:\Users\Agustin Bustos\Desktop\TEST\")
+- Las ubicaciones del Excel deben ir desde el Disco hasta la Ubicación completa con un backslash final (ejemplo: `C:\Users\Agustin Bustos\Desktop\TEST\`)
   
-  - Los de la ventana emergente inicial van sin el último backslash (ejemplo: "C:\Users\Agustin Bustos\Desktop\Test") y es importante que esa ubicación exista. Esta ubicación se utiliza solamente cuando la direccion de descarga del Excel esta vacío
+  - Los de la ventana emergente inicial van sin el último backslash (ejemplo: `C:\Users\Agustin Bustos\Desktop\Test`) y es importante que esa ubicación exista. Esta ubicación se utiliza solamente cuando la direccion de descarga del Excel esta vacío
 
 ---
 
@@ -54,15 +94,20 @@ Los pasos para ejecutar el bot son los siguientes:
 
 - La utilización del bot es bajo tu propia responsabilidad.
 
-- Si se comparte debe ser de manera GRATUITA, ya que la licencia es bajo GPL 3. También los bots derivados deben seguir la misma licencia gratuita.
+- Si se comparte debe ser de manera GRATUITA, ya que la licencia es bajo PL. También los bots derivados deben seguir la misma licencia gratuita.
 
 ---
 
-## Videos que pueden ser de utilidad
+### Links de Interés:
 
-1. Descarga de BOTs de repositorios de GitHub con Uipath: https://youtu.be/hD5BH7YzABw
+- Link de invitación al grupo de RPA en Discord: https://discord.gg/KVYyryvAcD
 
-2. Descarga e instalación de GIT para descargar repositorios (en caso que no esta habilitada la funcionalidad nativa de Clonar los repositorios): https://youtu.be/ujk27tRdA80
+- Link de invitación al grupo de RPA en WhatsApp: https://chat.whatsapp.com/IekktfvfTNLCkdIagO6xz3
+
+- Tutorial de Descarga de Bots desde Uipath: https://youtu.be/hD5BH7YzABw
+
+- Tutorial de Instalación y descarga de Repositorios con Git: https://youtu.be/ujk27tRdA80
+
 
 ---
 
@@ -82,11 +127,9 @@ Cualquier cosa pueden contactarme en:
 
 <br/>
 
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/agustinbustosp) <!-- [<img src="http://ketekipo.com.ar/wp-content/uploads/2020/05/mercado-pago.png" alt="Image" height="30" width="100\">](https://paypal.me/paypal.me/agustinbustosp) -->
+[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/agustinbustosp) 
 
-<!-- [![Cafecito](https://img.shields.io/badge/-Cafecito-9cf?style=for-the-badge)](https://cafecito.app/abustos) -->
-
-[<img src="https://santanderpost.com.ar/wp-content/uploads/2022/02/Cafecito-.jpg" title="Cafecito" height="30" width="65\">](https://cafecito.app/abustos)
+[![Invitame un café en cafecito.app](https://cdn.cafecito.app/imgs/buttons/button_5.svg)](https://cafecito.app/abustos)
 
 <br/>
 
