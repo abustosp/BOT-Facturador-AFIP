@@ -12,9 +12,9 @@ License Conditions:
 
 3. Distribution of the Software: The Software may be distributed in its original or modified form, in whole or in parts, as long as the following requirements are met:
 
-	a) A complete, unmodified copy of this License must be provided alongside the Software.
+	- A complete, unmodified copy of this License must be provided alongside the Software.
 
-	b) A clear and visible notice must be included, informing the recipient that they are using software distributed under the terms of this License. The notice should include the title of the Software, the copyright holder's name, and a link or reference to this License.
+	- A clear and visible notice must be included, informing the recipient that they are using software distributed under the terms of this License. The notice should include the title of the Software, the copyright holder's name, and a link or reference to this License.
 
 4. Modifications to the Software: Any modifications made to the Software must be clearly identified and documented, and must include a statement indicating that such modification has been made under the terms of this License.
 
@@ -51,9 +51,9 @@ Condiciones de la Licencia:
 
 3. Distribución del Software: El Software puede ser distribuido en su forma original o modificado, en su totalidad o en partes, siempre y cuando se cumplan los siguientes requisitos:
 
-	a) Se debe proporcionar junto con el Software una copia de esta Licencia en su totalidad, sin ninguna modificación.
+	- Se debe proporcionar junto con el Software una copia de esta Licencia en su totalidad, sin ninguna modificación.
 
-	b) Se debe incluir una notificación clara y visible que informe al destinatario que está utilizando un software distribuido bajo los términos de esta Licencia. La notificación debe incluir el título del Software, el nombre del titular de los derechos de autor y un enlace o referencia a esta Licencia.
+	- Se debe incluir una notificación clara y visible que informe al destinatario que está utilizando un software distribuido bajo los términos de esta Licencia. La notificación debe incluir el título del Software, el nombre del titular de los derechos de autor y un enlace o referencia a esta Licencia.
 
 4. Modificaciones del Software: Cualquier modificación realizada en el Software debe ser claramente identificada y documentada, y debe incluir una declaración que indique que dicha modificación se ha realizado bajo los términos de esta Licencia.
 
