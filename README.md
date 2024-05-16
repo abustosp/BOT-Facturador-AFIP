@@ -54,7 +54,7 @@ Los pasos para ejecutar el bot son los siguientes:
 
 ---
 
-## Verisones del BOT
+## Versiones del BOT
 
 - Facturador 4.0 Base: Primera versión del Bot. solo carga el Neto Gravado.
 
