@@ -56,11 +56,11 @@ Los pasos para ejecutar el bot son los siguientes:
 
 ## Verisones del BOT
 
-- Facturador 4.0 Base: Primera versión del Bot. solo carga el Neto Grabado.
+- Facturador 4.0 Base: Primera versión del Bot. solo carga el Neto Gravado.
 
 - Facturador 4.0 Unidades: Es exactamente igual que la anterior pero se reemplaza la base del Neto Gravado por la base de Unidades y las Unidades.
 
-- Facturador 4.0 Click Unidades Item: Es exactamente igual que la versión 2 y además se vuelve multilinea (si la factura se hace a una persona con la misma denominación y tipo de documento se hace en la misma factura).
+- Facturador 4.0 Unidades Item: Es exactamente igual que la versión 2 y además se vuelve multilinea (si la factura se hace a una persona con la misma denominación y tipo de documento se hace en la misma factura).
 
 ---
 
